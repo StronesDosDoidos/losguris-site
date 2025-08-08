@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e6;
+    margin: 0;
+    padding: 0;
+    color: #3e2f1c;
+}
+header {
+    background-color: #3e2f1c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav a {
+    color: #f5f0e6;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+button {
+    background-color: #7a5c3d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #5e442d;
+}
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #7a5c3d;
+}
+.post {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
